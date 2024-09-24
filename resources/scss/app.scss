@@ -1,1 +1,29 @@
 @import '~bootstrap/scss/bootstrap';
+
+header {
+    img {
+        margin: 10px 0;
+    }
+
+    ul {
+        display: flex;
+        justify-content: flex-end;
+
+        li {
+            padding: 20px 15px;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                padding-bottom: 40px;
+                text-transform: uppercase;
+
+                &:hover {
+                    color: #0C7CEC;
+                    border-bottom: 5px solid #0C7CEC;
+                }
+            }
+        }
+    }
+}
