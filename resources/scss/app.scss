@@ -28,6 +28,52 @@ header {
     }
 }
 
+main {
+    .bg-cartoon {
+        background-image: url('../img/jumbotron.jpg');
+        height: 600px;
+        background-size: cover;
+        position: relative;
+
+        .badge {
+            position: absolute;
+            bottom: -30px;
+            left: 640px
+        }
+    }
+
+    .card {
+
+
+        img {
+            width: 200px;
+            height: 250px;
+        }
+    }
+
+    .bg-lightblue {
+        background-color: #0C7CEC;
+
+        .col {
+            padding: 0px;
+            margin: 0px;
+            align-content: center;
+            align-self: center;
+
+
+            p {
+                padding-left: 0px;
+            }
+
+            img {
+                max-width: 70px;
+                max-height: 70px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
 footer {
     .bg-img {
         background-image: url('../img/footer-bg.jpg');
