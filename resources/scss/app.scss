@@ -27,3 +27,39 @@ header {
         }
     }
 }
+
+footer {
+    .bg-img {
+        background-image: url('../img/footer-bg.jpg');
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .logo-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .logo {
+        width: 600px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    .bg-footer {
+        background-color: #303030;
+
+        .btn {
+            border-color: #0082F9;
+            border-radius: 0;
+            padding: 10px;
+        }
+    }
+
+    .content img {
+        margin-right: 10px;
+    }
+}
